@@ -8,7 +8,7 @@ speed_of_snake = 10
 SCREEN_WIDTH = 700  
 SCREEN_HEIGHT = 460  
 
-your_low_score = pygame.Color(103, 11, 161)  
+thine_score = pygame.Color(103, 11, 161)  
 battleground = pygame.Color(52, 217, 63)  
 YOU_DIED = pygame.Color(220, 20, 60)  
 snaki_boi = pygame.Color(104, 74, 237)  
@@ -140,7 +140,7 @@ while game_run:
         if position_of_snake[0] == block[0] and position_of_snake[1] == block[1]:  
             game_over  
     
-    display_score(1, your_low_score, 'times new roman', 20)  
+    display_score(1, thine_score, 'times new roman', 20)  
    
     pygame.display.update()  
     
