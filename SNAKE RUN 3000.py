@@ -8,12 +8,12 @@ speed_of_snake = 10
 SCREEN_WIDTH = 700  
 SCREEN_HEIGHT = 460  
 
-your_low_score = pygame.Color(25, 25, 112)  
-battleground = pygame.Color(245, 255, 250)  
+your_low_score = pygame.Color(103, 11, 161)  
+battleground = pygame.Color(52, 217, 63)  
 YOU_DIED = pygame.Color(220, 20, 60)  
-snaki_boi = pygame.Color(124, 252, 0)  
-apple = pygame.Color(255, 69, 0)  
-pygame.init()  
+snaki_boi = pygame.Color(104, 74, 237)  
+apple = pygame.Color(242, 68, 68)  
+pygame.init() 
   
 display_screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))  
   
